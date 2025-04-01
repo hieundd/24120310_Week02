@@ -10,9 +10,9 @@ int sentinelLinearSearch(int a[], int n, int k) {
     }
     a[n - 1] = last;
     if ((i < n - 1) || (a[n - 1] == k)) {
-        return k;
+        return i;
     }
-
+return -1;
 }
 
 int main()
