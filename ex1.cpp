@@ -4,7 +4,7 @@ using namespace std;
 int linearSearch(int arr[], int n, int k) {
 	for (int i = 0; i < n; i++) {
 		if (arr[i] == k) {
-			return arr[i];
+			return i;
 		}
 	}
 	              return -1;
